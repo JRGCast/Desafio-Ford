@@ -27,9 +27,14 @@ const rotas = (partida = 'Brasília', entrega = 'Brasília') => {
   if ((capitaisNorte.find(cidade => cidade === partida)) && capitaisNordeste.find(cidade => cidade === entrega)) totalRotas + 0; // rota unidirecional existente
   if (((capitaisSudeste.find(cidade => cidade === partida)) && capitaisCentro.find(cidade => cidade === entrega))) totalRotas + 0; // rota unidirecional existente
   if ((capitaisSudeste.find(cidade => cidade === partida)) && capitaisSul.find(cidade => cidade === entrega)) totalRotas + 0; // rota unidirecional existente
-  if ((todasMenosCentro.find()))
-
-    return `Adicionando ${totalRotas} rotas`;
+  if ((todasMenosCentro.find(cidade => cidade === partida) && !todasMenosCentro.find(cidade => cidade === entrega))) {
+    if (capitaisCentro.find(entrega)) {
+      totalRotas + 1;
+    } else {
+      totalRotas + 1;
+    }
+  }
+  return `Adicionando ${totalRotas} rotas`;
 };
 
 console.log(rotas('Belém', 'Aracaju'));
