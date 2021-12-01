@@ -29,7 +29,8 @@ const decript = (cripted) => {
   return secondLayer;
 };
 
-// console.log(criptography(test1));
+console.log(criptography(test1));
+console.log(decript(criptography(test1)) === test1);
+console.log(decript(criptography(test2)) === test2.toString());
 
 module.exports = { criptography, decript };
-console.log(decript(criptography(test2)) === test2.toString());
