@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "jest": "^27.4.3",
+    "jsonwebtoken": "^8.5.1"
+  }
+}

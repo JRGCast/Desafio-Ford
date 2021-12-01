@@ -1,6 +1,6 @@
 
 const test1 = '1HGCM82633A004352';
-const test2 = 156189489165198
+const test2 = 156189489165198;
 const { tokenize, untokenize } = require('./utils/criptRelated');
 
 // Criptografia discutida e implementada em grupo
@@ -31,4 +31,5 @@ const decript = (cripted) => {
 
 // console.log(criptography(test1));
 
+module.exports = { criptography, decript };
 console.log(decript(criptography(test2)) === test2.toString());
