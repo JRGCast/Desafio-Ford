@@ -1,0 +1,22 @@
+{
+  "name": "desafio_ford",
+  "version": "1.0.0",
+  "description": "Desafio criptografia",
+  "main": "desafio_ford.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JRGCast/Desafio-Ford.git"
+  },
+  "author": "Joao Ralph Gonçalves Castaldi (JRGCast)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JRGCast/Desafio-Ford/issues"
+  },
+  "homepage": "https://github.com/JRGCast/Desafio-Ford#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  }
+}
