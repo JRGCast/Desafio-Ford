@@ -13,3 +13,5 @@
 
 #### O grupo foi extremamente criativo e com ideias incríveis para a criptografia, mas foi necessário relembrá-los que a implementação deveria ser fácil, e também, quando mais complexa a criptografia, mais complexa seria a descriptografia, por isso optamos por esse modelo relativamente simples.
 
+##### Na 'codação' particular, foi adicionada a tokenização via JWT, bem como testes no Jest.
+
