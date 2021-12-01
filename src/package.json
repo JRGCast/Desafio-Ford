@@ -4,7 +4,7 @@
   "description": "Desafio criptografia",
   "main": "desafio_ford.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest ./src/tests/criptdecript.test.js  "
   },
   "repository": {
     "type": "git",
