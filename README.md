@@ -2,7 +2,7 @@
 
 - O desafio consiste em forjar um algoritmo de criptografia e descriptografia próprio, podendo ou não utilizar uma lib externa para complemento;
 
-- Este participante foi componente do grupo Verde, e a criptografia lá discutida consistia em:
+- Este participante foi componente do grupo Verde, e a criptografia lá discutida consistia em: <br/>
 1- Converter o VIM recebido em string; <br/>
 2- Separar cada caractere com a função '.split()';<br/>
 3- Transformar cada caractere em seu respectivo valor Decimal da tabela ASCII, com a função .charCodeAt();<br/>
